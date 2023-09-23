@@ -41,10 +41,6 @@ h2 {
     border: 0;
 }
 
-.navbar .navbar-toggler {
-    border: 0;
-}
-
 .navbar .navbar-brand {
     font-weight: bold;
 }
@@ -55,6 +51,36 @@ h2 {
 
 .navbar-brand i {
     margin-right: 3px;
+}
+
+/*Navbar toggler */
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler-icon-bar {
+    width: 26px;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon-bar:nth-child(2) {
+    margin: 3px 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon-bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon-bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
 }
 
 /* Buttons */
@@ -76,22 +102,23 @@ h2 {
 .btn--red:focus,
 .btn--red:active:focus {
     background-color: #ffffff;
-    border-color: #fafafa;
-    color: #212529;
+    border-color: #ffffff;
+    color: #000000;
 }
 
-/* Request a quote button change on mobile devices*/
+/* Get a quote button change on mobile devices*/
 
 @media (max-width: 767px) {
     .navbar-toggler[aria-expanded="true"]+.collapse .navbar-nav .nav-link.nav-link-mobile-color {
-        color: #fff;
+        color: #ffffff;
         background-color: #f05224;
-        padding: 5px 10px;
+        padding: 10px 20px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-top: 5px;
         text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
     }
 }
 
@@ -118,6 +145,57 @@ h2 {
     height: 1px;
     background-color: #000000;
     margin: 5px 0;
+}
+
+/* Site content */
+
+/* Masthead */
+
+.masthead {
+    background-color: #f0f0f0;
+}
+
+.sub-heading h4 {
+    font-size: 32px;
+    color: #f05224;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.title h2 {
+    font-size: 34px;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.textarea p {
+    font-size: 18px;
+    color: #7a839e;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+/* Get a quote button with inverted colors */
+.btn--red-inverted {
+    color: #ffffff;
+    background-color: #f05224;
+    border-color: #f05224;
+}
+
+.btn--red-inverted:hover,
+.btn--red-inverted:active,
+.btn--red-inverted:focus,
+.btn--red-inverted:active:focus {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+}
+
+.masthead-image {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 20px;
 }
 
 /* Footer */
