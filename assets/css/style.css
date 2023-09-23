@@ -106,7 +106,7 @@ h2 {
     color: #000000;
 }
 
-/* Get a quote button change on mobile devices*/
+/* Get in touch button change on mobile devices*/
 
 @media (max-width: 767px) {
     .navbar-toggler[aria-expanded="true"]+.collapse .navbar-nav .nav-link.nav-link-mobile-color {
@@ -176,7 +176,7 @@ h2 {
     font-weight: bold;
 }
 
-/* Get a quote button with inverted colors */
+/* Get in touch button with inverted colors */
 .btn--red-inverted {
     color: #ffffff;
     background-color: #f05224;
@@ -194,7 +194,7 @@ h2 {
 
 .masthead-image {
     max-width: 100%;
-    height: auto; 
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -224,6 +224,11 @@ h2 {
     color: #c8c8c8;
 }
 
+.footer ul li a:hover {
+    color: #f05224;
+    text-decoration: none;
+}
+
 .social-icons {
     color: #fff;
     list-style: none;
@@ -238,16 +243,16 @@ h2 {
 }
 
 .social-icons a {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 35px;
-height: 35px;
-border-radius: 50%;
-background-color: #fff;
-color: #000 !important;
-text-decoration: none;
-font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000 !important;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .footer ul li {
