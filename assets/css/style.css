@@ -1,21 +1,13 @@
 /*fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;800&family=Montserrat&display=swap');
 
 body {
     font-family: Lato, sans-serif;
     color: #ffffff;
 }
 
-/*headings and logo*/
-
-h1,
-h2 {
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #ffffff;
-}
+/*Logo*/
 
 #logo {
     float: left;
@@ -88,7 +80,14 @@ h2 {
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+}
+
+.navbar .btn--cta {
+    width: 140px;
+}
+
+.masthead .btn--cta {
+    width: 210px;
 }
 
 .btn--red {
@@ -152,28 +151,43 @@ h2 {
 /* Masthead */
 
 .masthead {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 .sub-heading h4 {
-    font-size: 32px;
+    font-size: 38px;
     color: #f05224;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
 }
 
 .title h2 {
-    font-size: 34px;
+    font-size: 42px;
     color: #000000;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
 }
 
 .textarea p {
-    font-size: 18px;
+    font-size: 20px;
     color: #7a839e;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
+}
+
+.caption {
+    padding-bottom: 3rem;
+    padding-top: 8rem;
+}
+
+/* Centered the masthead text for mobile devices */
+
+@media (max-width: 767px) {
+    .caption {
+        text-align: center;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
 }
 
 /* Get in touch button with inverted colors */
@@ -198,12 +212,108 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Home Intro */
+
+.home-intro-textarea {
+    background-color: #f0f0f0;
+}
+
+.home-intro-title {
+    font-family: Montserrat, sans-serif;
+    color: #f05224;
+    text-align: center;
+    font-weight: 500;
+}
+
+.home-intro-text {
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+}
+
+/* Services */
+
+.the-block {
+    box-shadow: 0px 0px 20px rgba(39, 39, 39, .3);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.services-image img {
+    border-radius: 15px 15px 0 0;
+}
+
+.services-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.services-content {
+    font-family: Montserrat, sans-serif;
+    background-color: #f05224;
+    color: #000000;
+    margin-bottom: -50px;
+    flex-grow: 1;
+}
+
+.services-content h5 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.services-content a {
+    text-decoration-color: #ffffff;
+}
+
+.services-links {
+    background-color: #000000;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.services-links a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.services-links a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 0 0 15px 15px;
+}
+
+/* Aligned the height of all columns */
+
+.equal-height-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-height-container .col-lg-4 {
+    flex: 1;
+}
+
+
+
+
 /* Footer */
 
 .footer {
     background-color: #000000;
     color: #fff;
-    font: 14px;
     padding-top: 80px;
     padding-bottom: 20px;
     padding-right: 35px;
