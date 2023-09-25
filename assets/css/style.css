@@ -256,7 +256,6 @@ body {
     font-family: Montserrat, sans-serif;
     background-color: #f05224;
     color: #000000;
-    margin-bottom: -50px;
     flex-grow: 1;
 }
 
@@ -266,6 +265,12 @@ body {
     color: #ffffff;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.services-content .seo-info p,
+.services-content .ppc-info p,
+.services-content .cro-info p {
+    margin-bottom: -70px;
 }
 
 .services-content a {
@@ -306,6 +311,12 @@ body {
     flex: 1;
 }
 
+/* Spacing between service columns on mobile */
+@media (max-width: 767px) {
+    .equal-height-container .col-lg-4 {
+        margin-bottom: 20px !important;
+    }
+}
 
 
 
