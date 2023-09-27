@@ -1,11 +1,12 @@
 /*fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;800&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;800;900&family=Montserrat&display=swap');
 
 body {
     font-family: Lato, sans-serif;
     color: #ffffff;
 }
+
 
 /*Logo*/
 
@@ -155,21 +156,21 @@ body {
 }
 
 .sub-heading h4 {
-    font-size: 38px;
+    font-size: 40px;
     color: #f05224;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
 }
 
 .title h2 {
-    font-size: 42px;
+    font-size: 47px;
     color: #000000;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
 }
 
 .textarea p {
-    font-size: 20px;
+    font-size: 22px;
     color: #7a839e;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -178,6 +179,7 @@ body {
 .caption {
     padding-bottom: 3rem;
     padding-top: 8rem;
+    padding-left: 2rem;
 }
 
 /* Centered the masthead text for mobile devices */
@@ -216,6 +218,7 @@ body {
 
 .home-intro-textarea {
     background-color: #f0f0f0;
+    padding-bottom: 5rem !important;
 }
 
 .home-intro-title {
@@ -223,6 +226,7 @@ body {
     color: #f05224;
     text-align: center;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .home-intro-text {
@@ -271,6 +275,7 @@ body {
 .services-content .ppc-info p,
 .services-content .cro-info p {
     margin-bottom: -70px;
+    font-weight: bold;
 }
 
 .services-content a {
@@ -319,6 +324,97 @@ body {
 }
 
 
+/* Why work with us */
+
+#why-work-with-us {
+    color: #f05224;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#value-proposition {
+    height: 600px;
+}
+
+hr {
+    border-top: 1px solid #c8c8c8;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.vp-left-text {
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.vp-left-text h2 {
+    color: #f05224;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.vp-left-text p {
+    color: #000000;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.vp-right-text {
+    width: 100%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.vp-right-text h2 {
+    text-align: right;
+    color: #f05224;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+}
+
+.vp-right-text p {
+    text-align: right;
+    color: #000000;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+
+/* Value proposition center image */
+
+#circle-container {
+    width: 370px;
+    height: 370px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #c8c8c8;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#circle-cover-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 /* Footer */
 
@@ -328,6 +424,7 @@ body {
     padding-top: 80px;
     padding-bottom: 20px;
     padding-right: 35px;
+    position: relative;
 }
 
 .footer h3 {
