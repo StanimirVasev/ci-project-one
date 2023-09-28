@@ -416,9 +416,64 @@ hr {
     border-radius: 50%;
 }
 
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+#what-our-clients-say {
+    color: #f05224;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+blockquote p {
+    color: #000000;
+    font-size: 18px;
+    margin-top:65px;
+    margin-bottom: 10px;
+}
+
+blockquote i.fa.fa-quote-left {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+blockquote cite {
+    color: #f05224;
+    font-weight: bold;
+}
+
+
+#testimonials .col-sm-4 {
+    margin-top:50px;
+}
+
+/* Client's image - hexagon shape */
+
+.hexagon {
+    width: 250px;
+    height: 225px;
+    clip-path: polygon(25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hexagon-inner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Footer */
 
 .footer {
+    clear: both;
     background-color: #000000;
     color: #fff;
     padding-top: 80px;
