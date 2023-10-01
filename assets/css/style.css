@@ -338,10 +338,6 @@ body {
     font-size: 280%;
 }
 
-#value-proposition {
-    height: 600px;
-}
-
 hr {
     border-top: 1px solid #c8c8c8;
     width: 100%;
@@ -395,6 +391,23 @@ hr {
     font-size: 16px;
 }
 
+/* Align vp-right-text and vp-left-text to the left on mobile for consistency */
+
+@media (max-width: 767px) {
+
+    .vp-right-text {
+        float: none;
+        text-align: left;
+        padding: 0;
+    }
+
+    .vp-right-text h2,
+    .vp-right-text p {
+        text-align: left;
+    }
+}
+
+
 /* Value proposition center image */
 
 #circle-container {
@@ -434,13 +447,14 @@ hr {
 blockquote p {
     color: #000000;
     font-size: 18px;
-    margin-top:65px;
+    margin-top: 55px;
     margin-bottom: 10px;
 }
 
 blockquote i.fa.fa-quote-left {
-    font-size: 24px;
-    margin-right: 5px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
 }
 
 blockquote cite {
@@ -448,9 +462,8 @@ blockquote cite {
     font-weight: bold;
 }
 
-
 #testimonials .col-sm-4 {
-    margin-top:50px;
+    margin-top: 50px;
 }
 
 /* Client's image - hexagon shape */
