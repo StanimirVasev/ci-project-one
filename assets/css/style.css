@@ -7,7 +7,6 @@ body {
     color: #ffffff;
 }
 
-
 /*Logo*/
 
 #logo {
@@ -609,4 +608,50 @@ blockquote cite {
     color: #fff;
     font-size: 15px;
 
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .equal-height-container .col-lg-4 {
+        flex: 100%;
+        margin-bottom: 20px;
+    }
+
+    .masthead-image {
+        height: 90%;
+    }
+
+    .sub-heading h4 {
+        font-size: 30px;
+    }
+
+    .title h2 {
+        font-size: 32px;
+    }
+
+    .textarea p {
+        font-size: 16px;
+    }
+
+    .caption {
+        padding-top: 5rem;
+    }
+
+    #circle-container {
+        display: none !important;
+    }
+
+    .vp-right-text {
+        padding-left: 0;
+    }
+
+    .hexagon {
+        width: 225px;
+        height: 210px;
+    }
+
+    #testimonials .col-sm-4 {
+        margin-top: 100px;
+    }
 }
