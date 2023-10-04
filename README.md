@@ -97,9 +97,9 @@ The colour palette (orange, black, white, grey) was chosen by the developer as i
 
 - Home page wireframe
 
-  (assets/images/desktop-wireframe)
-  (assets/images/tablet-wireframe)
-  (assets/images/mobile-wireframe)
+![Desktop wireframe](assets/images/desktop-wireframe)
+![Tablet wireframe](assets/images/tablet-wireframe)
+![Mobile wireframe](assets/images/mobile-wireframe)
 
 # Features
 
