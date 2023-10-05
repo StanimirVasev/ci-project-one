@@ -1,12 +1,14 @@
-<!-- Explain what SEO is, how we can help, and contact form -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beyond Borders Marketing</title>
+
+    <!-- External CSS and JavaScript libraries -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -16,10 +18,11 @@
 </head>
 
 <body>
+    <!-- Header Section -->
     <header>
         <nav class="navbar navbar-dark navbar-expand-sm">
             <a href="index.html" class="navbar-brand"><i class="fas fa-globe"></i>Beyond Borders Marketing</a>
-
+            <!-- Navbar Toggle Button -->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon-bar"></span>
@@ -27,8 +30,10 @@
                 <span class="navbar-toggler-icon-bar"></span>
             </button>
 
+            <!-- Navbar Menu -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
+                    <!-- Menu Items -->
                     <li class="nav-item mr-2">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
@@ -40,6 +45,8 @@
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
                         </a>
+
+                        <!-- Services Dropdown Menu -->
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="seo.html">Search Engine Optimisation</a>
                             <a class="dropdown-item" href="ppc.html">Pay-Per-Click Advertising</a>
@@ -50,62 +57,410 @@
                         <a class="nav-link" href="blog.html">Blog</a>
                     </li>
 
+                    <!-- Mobile Get in Touch Link -->
                     <li class="nav-item mr-2 d-block d-sm-none">
-                        <a class="nav-link nav-link-mobile-color" href="contact.html">Get in touch</a>
+                        <a class="nav-link nav-link-mobile-color" href="#contact-us">Get in touch</a>
                     </li>
                 </ul>
             </div>
+
+            <!-- Desktop Get in Touch Button -->
             <div class="d-none d-md-block">
-                <a href="contact.html" class="btn btn--cta btn--red">Get in touch</a>
+                <a href="#contact-us" class="btn btn--cta btn--red">Get in touch</a>
             </div>
         </nav>
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="seo.html">Search Engine Optimisation</a></li>
-                            <li><a href="ppc.html">Pay-Per-Click Advertising</a></li>
-                            <li><a href="cro.html">Conversion Rate Optimisation</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Resources</h3>
-                        <ul>
-                            <li><a href="blog.html">Latest blogs</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Get in touch</h3>
-                        <ul class="contact-info">
-                            <li><i class="fas fa-phone"></i> Phone: <a href="tel:07712727159">07712 727159</a></li>
-                            <li><i class="far fa-envelope"></i> Email: <a
-                                    href="mailto:s.vasev97@gmail.com">s.vasev97@gmail.com</a></li>
-                            <li><i class="fas fa-map-marker-alt"></i> Address: 19 Kenmare Mews, Pontprennau, Cardiff,
-                                CF23 8RG
-                            </li>
-                        </ul>
-
-                        <ul class="social-icons">
-                            <li><a href="https://www.linkedin.com/in/stanimir-vasev-acim-miod-50a7b2181/"
-                                    target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="https://www.facebook.com/MirkoVasev/" target="_blank"><i
-                                        class="fab fa-facebook"></i></a></li>
-                            <li><a href="https://www.instagram.com/stanimir.vasev" target="_blank"><i
-                                        class="fab fa-instagram"></i></a></li>
-                        </ul>
+    </header>
+    <!-- Masthead Section -->
+    <section class="masthead" id="masthead">
+        <div class="container">
+            <div class="row pt-sm-5">
+                <div class="col-lg-6 col-md-6 py-0 py-sm-3 px-0">
+                    <div class="caption">
+                        <div class="container px-sm-0">
+                            <div class="sub-heading">
+                                <h4>Looking for</h4>
+                            </div>
+                            <div class="title">
+                                <h2>new customers?</h2>
+                            </div>
+                            <div class="textarea">
+                                <p>You've come to the right place!</p>
+                            </div>
+                            <a href="#contact-us" class="btn btn--cta btn--red-inverted">Get in touch</a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-6 col-md-6">
+                    <img class="img-fluid masthead-image d-none d-md-block" src="assets/images/masthead-img.jpg"
+                        alt="search engine optimisation, pay-per-click advertising and conversion rate optimisation services | Beyond Borders Marketing" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home intro Section -->
+    <section id="home-intro">
+        <div class="home-intro-textarea py-5">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <p class="footer-copyright">
-                            © 2023 Beyond Borders Marketing. All Rights Reserved.
+                    <div class="col-12">
+                        <div class="home-intro-title">
+                            <h1>Beyond Borders Marketing</h1>
+                        </div>
+                        <div class="home-intro-text">
+                            <div class="col-lg-8 mx-auto">
+                                <p>
+                                    Your global trusted partner in crafting digital marketing
+                                    strategies that drive real-world results through a fully
+                                    transparent, analytical, and process-driven methodology.
+                                </p>
+                            </div>
+                            <div class="col-lg-8 mx-auto">
+                                <p>
+                                    Our world-class team meticulously analyses every click,
+                                    impression, and interaction to optimise your campaigns and
+                                    maximise your return on investment.
+                                </p>
+                            </div>
+                            <div class="col-lg-8 mx-auto">
+                                <p>
+                                    Prepare for a client-agency partnership that's more than
+                                    just professional; it's supportive, hassle-free, and
+                                    designed to empower your success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services offering -->
+            <div class="container">
+                <div class="row blocks equal-height-container">
+                    <!-- Search Engine Optimisation -->
+                    <div class="col-lg-4">
+                        <div class="the-block mb-5">
+                            <div class="services-image">
+                                <img src="assets/images/seo.jpg"
+                                    alt="Search Engine Optimisation | Beyond Borders Marketing" class="img-fluid" />
+                            </div>
+                            <div class="services-content py-4 px-4">
+                                <a href="seo.html">
+                                    <h5>Search Engine Optimisation</h5>
+                                </a>
+                                <div class="seo-info">
+                                    <p>
+                                        We blend technical expertise, engaging content, and
+                                        strategic backlinks to boost your brand's visibility.
+                                        Prepare for a surge in organic traffic, driving your
+                                        website to the forefront of search results and converting
+                                        visitors into loyal customers.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="services-links">
+                                <a href="seo.html">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pay-per-click advertising -->
+                    <div class="col-lg-4">
+                        <div class="the-block mb-5">
+                            <div class="services-image">
+                                <img src="assets/images/ppc.jpg"
+                                    alt="Pay-per-click Advertising | Beyond Borders Marketing" class="img-fluid" />
+                            </div>
+                            <div class="services-content py-4 px-4">
+                                <a href="ppc.html">
+                                    <h5>Pay-per-click Advertising</h5>
+                                </a>
+                                <div class="ppc-info">
+                                    <p>
+                                        By utilising advanced data analytics, conducting keyword
+                                        research, and running targeted ad campaigns, we optimise
+                                        your online presence to maximise clicks, conversions, and
+                                        return on investment. Our proven PPC approach empowers
+                                        your business in the digital landscape, driving more
+                                        traffic, leads, and sales.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="services-links">
+                                <a href="ppc.html">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Conversion Rate Optimisation -->
+                    <div class="col-lg-4">
+                        <div class="the-block mb-5">
+                            <div class="services-image">
+                                <img src="assets/images/cro.jpg"
+                                    alt="Conversion Rate Optimisation | Beyond Borders Marketing" class="img-fluid" />
+                            </div>
+                            <div class="services-content py-4 px-4">
+                                <a href="cro.html">
+                                    <h5>Conversion Rate Optimisation</h5>
+                                </a>
+                                <div class="cro-info">
+                                    <p>
+                                        By using our meticulously crafted Conversion Rate
+                                        Optimisation process, honed through data analysis, user
+                                        research, and rigorous hypothesis testing, we can harness
+                                        the full potential of your existing website traffic and
+                                        convert it into valuable leads and sales.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="services-links">
+                                <a href="cro.html">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why choose us-->
+    <section id="value-proposition">
+        <h2 id="why-work-with-us">Why work with us?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="vp-left-text">
+                        <h2>Your One-Stop Shop for Digital Marketing</h2>
+                        <hr />
+                        <p>
+                            Say goodbye to managing multiple agencies for different aspects
+                            of your digital marketing. We're a full-service digital
+                            marketing agency equipped to handle everything from
+                            Pay-Per-Click (PPC) advertising and Conversion Rate Optimisation
+                            (CRO) to Search Engine Optimisation (SEO) and more. With us, you
+                            have a dedicated partner for all your digital marketing needs.
+                        </p>
+                    </div>
+                    <div class="vp-left-text">
+                        <h2>Award-Winning Excellence</h2>
+                        <hr />
+                        <p>
+                            Trust a team that's received multiple awards for exceptional
+                            service. Our commitment to excellence has earned us industry
+                            recognition, showcasing our dedication to delivering top-notch
+                            results. When you choose us, you're choosing a team with a
+                            proven track record of success.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="circle-container" class="d-none d-md-block">
+                        <video autoplay loop muted playsinline id="circle-cover-bg">
+                            <source src="assets/videos/location.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="vp-right-text">
+                        <h2>Local Agency with a Global Reach</h2>
+                        <hr />
+                        <p>
+                            With a rich history of serving over 100 clients across 5
+                            continents and spanning 30 industries, we've honed our skills to
+                            understand the unique challenges that global markets present.
+                            Our mission is clear – to craft tailored strategies that
+                            seamlessly blend local insights with a global perspective,
+                            driving your success across borders.
+                        </p>
+                    </div>
+                    <div class="vp-right-text">
+                        <h2>Putting You First, Always</h2>
+                        <hr />
+                        <p>
+                            Our customers and employees are our top priority. We believe in
+                            creating a customer-centric environment where your goals are
+                            paramount. Happy customers make for thriving partnerships, and
+                            our commitment to your success is unwavering.
                         </p>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </section>
+    <!-- Client testimonials -->
+    <section id="testimonials">
+        <h2 id="what-our-clients-say">What our clients say</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="hexagon">
+                        <div class="hexagon-inner">
+                            <img src="assets/images/Veneta-ilieva.jpg" alt="Client Image" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <blockquote>
+                        <p>
+                            <i class="fa fa-quote-left"></i>The team at Beyond Borders
+                            Marketing have been part of our digital marketing strategy for
+                            some while now. Within 4 months of working with them, we have
+                            seen a great ROI. Having a team cover our SEO, PPC, and CRO
+                            means we can focus our time on delivery and innovation of new
+                            products, which is where our time is best spent. I’d highly
+                            recommend Beyond Borders Marketing to any business looking to
+                            grow rapidly.
+                        </p>
+                        <footer>
+                            <cite>Veneta Ilieva, Managing Director of Sophie's Onesies</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-sm-4">
+                    <div class="hexagon">
+                        <div class="hexagon-inner">
+                            <img src="assets/images/Boyan-dimitrov.jpg" alt="Client Image" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <blockquote>
+                        <p>
+                            <i class="fa fa-quote-left"></i>We partnered with Beyond Borders
+                            Marketing to elevate our online presence, and the results have
+                            been nothing short of remarkable. In just three months, our
+                            website traffic doubled, and our conversion rates soared. Their
+                            expert team not only boosted our SEO rankings but also crafted
+                            highly effective PPC campaigns that delivered an outstanding
+                            return on investment. I wholeheartedly endorse Beyond Borders
+                            Marketing for any business seeking improved web traffic and 100s
+                            of warm leads.
+                        </p>
+                        <footer>
+                            <cite>Boyan Dimitrov, Chief Executive of DataQuest Research</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us -->
+    <section id="contact-us" class="contact-us-section">
+        <div class="container">
+            <div class="contact-us-content">
+                <h2 class="contact-us-title">Get in touch</h2>
+                <div class="contact-us-description">
+                    <p>
+                        Fill out the form below and let's discuss how we can help grow
+                        your business online.
+                    </p>
+                </div>
+                <form id="contact-form" name="contact-form" method="post" class="contact-form">
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name" name="first-name" required
+                                placeholder="First Name" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" class="form-control" id="last-name" name="last-name" required
+                                placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required
+                                placeholder="your@company.com" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required
+                                placeholder="07123 456789" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 form-group">
+                            <label for="client-message">How can we help?</label>
+                            <textarea class="form-control" id="client-message" name="client-message" rows="5" required
+                                placeholder="Type your message..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 form-group">
+                            <button type="submit" class="btn btn-contact-us">
+                                Send message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="seo.html">Search Engine Optimisation</a></li>
+                        <li><a href="ppc.html">Pay-Per-Click Advertising</a></li>
+                        <li><a href="cro.html">Conversion Rate Optimisation</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="blog.html">Latest blogs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h3>Get in touch</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i> Phone:
+                            <a href="tel:07712727159">07712 727159</a>
+                        </li>
+                        <li>
+                            <i class="far fa-envelope"></i> Email:
+                            <a href="mailto:s.vasev97@gmail.com">s.vasev97@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i> Address: 19 Kenmare Mews,
+                            Pontprennau, Cardiff, CF23 8RG
+                        </li>
+                    </ul>
+
+                    <!-- Social Media Icons -->
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/stanimir-vasev-acim-miod-50a7b2181/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/MirkoVasev/" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/stanimir.vasev" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="footer-copyright">
+                        © 2023 Beyond Borders Marketing. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
