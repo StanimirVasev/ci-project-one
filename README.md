@@ -31,7 +31,7 @@ It is targeted to businesses looking for new customers, whether B2B or B2C. The 
 5. Technologies used
 
 - Programming Languages used
-- Libraries used
+- Libraries and frameworks used
 
 6. Testing
 
@@ -177,18 +177,18 @@ It is targeted to businesses looking for new customers, whether B2B or B2C. The 
 
 ## Content
 
-- The content on the page was created by the developer but was inspired by various digital marketing agencies including Web Marketer UK [Link](https://webmarketeruk.com/), Coast Digital [Link](https://www.coastdigital.co.uk/) and others.
+- The content on the page was created by the developer but was inspired by various digital marketing agencies including [Web Marketer UK](https://webmarketeruk.com/), [Coast Digital](https://www.coastdigital.co.uk/) and others.
 
 ## Code
 
 - Code in the why work with us is very similar to the code from the Love Running project from the Code Institute.
 
-- The Javascript code used for the hamburger toggler in the navigation was achieved with the guidance from Web Dev Tutorials youtube channel [Link](https://www.youtube.com/watch?v=flItyHiDm7E).
+- The Javascript code used for the hamburger toggler in the navigation was achieved with the guidance from Web Dev Tutorials [youtube channel](https://www.youtube.com/watch?v=flItyHiDm7E).
 
-- The hexagon shaped images from the 'What our clients say' section were inspired by Coding Artist youtube channel [Link](https://www.youtube.com/watch?v=ovXZ5_vIiUI).
+- The hexagon shaped images from the 'What our clients say' section were inspired by Coding Artist [youtube channel](https://www.youtube.com/watch?v=ovXZ5_vIiUI).
 
 ## Media library
 
-- Icons were imported from Font Awesome [Link](https://fontawesome.com/).
-- The Montserrat and Lato fonts were imported from Google Fonts. Montserrat link [Link](https://fonts.google.com/specimen/Montserrat?query=montserrat), Lato link [Link](https://fonts.google.com/specimen/Lato?query=lato).
-- Images and videos were created by the developer using Canva Pro [Link](https://www.canva.com/).
+- Icons were imported from [Font Awesome](https://fontawesome.com/).
+- The Montserrat and Lato fonts were imported from Google Fonts. [Montserrat link](https://fonts.google.com/specimen/Montserrat?query=montserrat), [Lato link](https://fonts.google.com/specimen/Lato?query=lato).
+- Images and videos were created by the developer using [Canva](https://www.canva.com/).
